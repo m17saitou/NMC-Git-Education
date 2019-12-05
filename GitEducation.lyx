@@ -81,32 +81,73 @@
 GitHubを活用したGit入門
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 目次
 \end_layout
 
-\begin_layout Standard
-・Gitとは何なのか
+\begin_layout Itemize
+Gitとは何なのか
+\end_layout
+
+\begin_layout Itemize
+Gitによる管理の仕組み
+\end_layout
+
+\begin_layout Itemize
+最初のコミット
+\end_layout
+
+\begin_layout Itemize
+ブランチを切る
+\end_layout
+
+\begin_layout Itemize
+ブランチをマージする
+\end_layout
+
+\begin_layout Itemize
+ヤバいかな?と思ったら
+\end_layout
+
+\begin_layout Itemize
+参考文献
+\end_layout
+
+\begin_layout Section*
+Gitとは何なのか
 \end_layout
 
 \begin_layout Standard
-・Gitによる管理の仕組み
+\begin_inset Quotes eld
+\end_inset
+
+Git
+\begin_inset Quotes erd
+\end_inset
+
+って，聞いたことはあるけどどういうものなのか詳しくは知らない．―そんな人を対象にこの文書を作っている．もちろん，Gitなんて聞いたことない って人でも一から(い
+いえゼロから)説明するので心配はない．
 \end_layout
 
 \begin_layout Standard
-・最初のコミット
+前置きが長くなったが，この節ではGitが何なのか，そして何のために使うものなのかを解説する．
+\end_layout
+
+\begin_layout Subsection*
+バージョン管理システムの一つ，Git
 \end_layout
 
 \begin_layout Standard
-・ブランチを切る
+パソコンでファイルを編集していくとき，「昨日の夜の時点で消してしまった部分を，もう一度書き直したらもっと良くなるだろうけど，もう見ることは出来ない」という事態に
+陥ったことは誰もがあると思う．もしあなたがそういう経験がなくて，これからパソコンを触ったりしていくとしても，おそらく上記のような事態は逃れられない．バージョン管
+理システムは，こんな事態からあなたを救ってくれるシステムである．
 \end_layout
 
 \begin_layout Standard
-・ヤバいかな?と思ったら
-\end_layout
-
-\begin_layout Standard
-・参考文献
+昨日の夜の時点でのファイルの状態，今朝のファイルの状態，昼休みに編集したファイルの状態...これらを時系列にさかのぼって調べることができるようなシステム，それがバージ
+ョン管理システムだ．堅苦しい言い方をすれば，「一つのファイルやファイルの集合に対して時間とともに加えられていく変更を記録するシステムで，後で特定バージョンを呼び
+出すことができるようにするためのもの」//Pro Gitより引用 p.
 \end_layout
 
 \end_body
